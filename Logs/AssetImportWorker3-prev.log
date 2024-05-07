@@ -1,0 +1,439 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50747
+Successfully changed project path to: F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4148] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 22999149 [EditorId] 22999149 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4148] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 22999149 [EditorId] 22999149 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path E:/UnityEditor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity_Project/Editor/PC/Online/3D/Survival Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002877 seconds.
+- Loaded All Assemblies, in  0.290 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 199 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 754ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (285ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1180ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (426.7 KB). Loaded Objects now: 6050.
+Memory consumption went from 223.2 MB to 222.8 MB.
+Total: 4.233900 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.208300 ms MarkObjects: 3.406800 ms  DeleteObjects: 0.225200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2867.283923 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadB.prefab
+  artifactKey: Guid(8300cc60370c3264cb45369d10b5327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadB.prefab using Guid(8300cc60370c3264cb45369d10b5327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54a0c1ad4cd86c0aaf7f2be2f42727e') in 0.334245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab
+  artifactKey: Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab using Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b0ca271d154ec9b0363e1296ac8097') in 0.018721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadD.prefab
+  artifactKey: Guid(e948ade12d5127c4a99d48dac5e71629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadD.prefab using Guid(e948ade12d5127c4a99d48dac5e71629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a3ae2f306a41faa4cc7371a0e8bd8') in 0.016616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadI.prefab
+  artifactKey: Guid(782cdcc06ec8b794291c02294125d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadI.prefab using Guid(782cdcc06ec8b794291c02294125d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1354c980c31e46902bd1e76ac8a67556') in 0.018250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterD_detail.prefab
+  artifactKey: Guid(1f86fb21bed97cf4f802b11f88e74236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterD_detail.prefab using Guid(1f86fb21bed97cf4f802b11f88e74236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b8311817c9997e50615d466439c08') in 0.016251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadE.prefab
+  artifactKey: Guid(9a0bbe97ca958434e9145d50bcb4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadE.prefab using Guid(9a0bbe97ca958434e9145d50bcb4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1eb2ee506a8cc2479e1434d52809cc') in 0.013813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.745734 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/spellbook_open.fbx
+  artifactKey: Guid(9f142e142fe7e6148b69b2552e9e0319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/spellbook_open.fbx using Guid(9f142e142fe7e6148b69b2552e9e0319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3454dfb4bb5a51ec8dc2143d4c58507a') in 0.071451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.172723 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/sword_2handed.fbx
+  artifactKey: Guid(8e09df5ff0d624549b0e89707b0f4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/sword_2handed.fbx using Guid(8e09df5ff0d624549b0e89707b0f4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdea49e1350d1d85e0567bf03a2c5ac') in 0.039277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/sword_2handed_color.fbx
+  artifactKey: Guid(cd292f92c9cddc444b14a505a64e6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/sword_2handed_color.fbx using Guid(cd292f92c9cddc444b14a505a64e6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46902a0a45062d1860ac33a39fde6d') in 0.031248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 187.772505 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab
+  artifactKey: Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab using Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aabbabdfd53afba8a47f001566bcf74') in 0.023316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 2.prefab
+  artifactKey: Guid(5fb30f8cddcfc454c9ab55d02699ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 2.prefab using Guid(5fb30f8cddcfc454c9ab55d02699ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605253ef6310326e2e529edd938f5676') in 0.018163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 1.prefab
+  artifactKey: Guid(06d20c4acd432f74a8006866f5a3a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 1.prefab using Guid(06d20c4acd432f74a8006866f5a3a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b532ff4dcd8446dbbdb87d84e1c8965') in 0.014890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadL.prefab
+  artifactKey: Guid(91407597fb74c5949ac62a79cdc60403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadL.prefab using Guid(91407597fb74c5949ac62a79cdc60403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25af9022347beb578f714e648e639781') in 0.023959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA.prefab
+  artifactKey: Guid(aeb316a0eefee0f479c18bc6deb039d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA.prefab using Guid(aeb316a0eefee0f479c18bc6deb039d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012203 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/g_asset/internal/tilemap/hex_forest_watera.prefab in SourceAssetDB has modification time of '2024-05-07T01:04:44.2610206Z' while content on disk has modification time of '2024-05-07T01:04:44.6916752Z'
+  ERROR: Build asset version error: assets/g_asset/internal/tilemap/hex_forest_watera.prefab in SourceAssetDB has modification time of '2024-05-07T01:04:44.2610206Z' while content on disk has modification time of '2024-05-07T01:04:44.6916752Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_transitionB.prefab
+  artifactKey: Guid(594d5d88f3cb7534eb0bba69475a4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_transitionB.prefab using Guid(594d5d88f3cb7534eb0bba69475a4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c81f2bd3bf38477a0037db8e0571c') in 0.015762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.308175 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab
+  artifactKey: Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab using Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289b4e664b4a0a7e79a7e1e62067ecbb') in 0.016420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA_detail.prefab
+  artifactKey: Guid(f0482eaf8bd7c3f4a944858584abac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA_detail.prefab using Guid(f0482eaf8bd7c3f4a944858584abac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853b9b252667459e1e6f907c64cf359a') in 0.019284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterC_detail.prefab
+  artifactKey: Guid(1394dfc7f8c8fd0458ea102ea8538fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterC_detail.prefab using Guid(1394dfc7f8c8fd0458ea102ea8538fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e386df617c6708d9c41d7b35cd7c3184') in 0.020183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_transitionA.prefab
+  artifactKey: Guid(b6b7646a22fe2bd4dbaff9dd3e5304e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_transitionA.prefab using Guid(b6b7646a22fe2bd4dbaff9dd3e5304e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba4acddb9cdca2908b96d5cd633d71a') in 0.017385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadK.prefab
+  artifactKey: Guid(d7471b511a9bb7f40b4da6d5a7b949f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadK.prefab using Guid(d7471b511a9bb7f40b4da6d5a7b949f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9000846606912a8d824b0d3eb4b2ed66') in 0.018270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterB_detail.prefab
+  artifactKey: Guid(e9b523f8c7e3dac409f7c24455abe50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterB_detail.prefab using Guid(e9b523f8c7e3dac409f7c24455abe50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a49166dcf5e12ba788a66880953cb') in 0.018325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab
+  artifactKey: Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab using Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141d680b4bf6ce0442e62545f333cd2c') in 0.017797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/water.prefab
+  artifactKey: Guid(c1d33531a5094d648a0645780e81dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/water.prefab using Guid(c1d33531a5094d648a0645780e81dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54988974c3cd9fcc6336118a3ab92f5') in 0.014354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.244808 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab
+  artifactKey: Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadJ 2.prefab using Guid(b681822410af63041b1c051434d9fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f30ef7e7a27fb9004879da06c3e769') in 0.014941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA_detail.prefab
+  artifactKey: Guid(f0482eaf8bd7c3f4a944858584abac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA_detail.prefab using Guid(f0482eaf8bd7c3f4a944858584abac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e77c4ce1d78a5fcdeef8a55f8dd4db') in 0.016963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 1.prefab
+  artifactKey: Guid(06d20c4acd432f74a8006866f5a3a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterA 1.prefab using Guid(06d20c4acd432f74a8006866f5a3a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023eb878400a6ef937108fcf7543632') in 0.023946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadL.prefab
+  artifactKey: Guid(91407597fb74c5949ac62a79cdc60403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadL.prefab using Guid(91407597fb74c5949ac62a79cdc60403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3b0a7e83b576c0912b9bf8df334ccf') in 0.019541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadK.prefab
+  artifactKey: Guid(d7471b511a9bb7f40b4da6d5a7b949f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadK.prefab using Guid(d7471b511a9bb7f40b4da6d5a7b949f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cb7c34654a540f7e1ed3fca58f412b') in 0.015774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_waterB_detail.prefab
+  artifactKey: Guid(e9b523f8c7e3dac409f7c24455abe50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_waterB_detail.prefab using Guid(e9b523f8c7e3dac409f7c24455abe50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62debcb095f02d386c1c18f5a3a768ef') in 0.014604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab
+  artifactKey: Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/hex_forest_roadM.prefab using Guid(51bb3443704c1fc44a13c42c1e047deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b727ab420d0264a818c627c07d194f1a') in 0.021067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/G_Asset/Internal/Tilemap/water.prefab
+  artifactKey: Guid(c1d33531a5094d648a0645780e81dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Internal/Tilemap/water.prefab using Guid(c1d33531a5094d648a0645780e81dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34676536bddb57be048d0f1d4f4c372e') in 0.014262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14

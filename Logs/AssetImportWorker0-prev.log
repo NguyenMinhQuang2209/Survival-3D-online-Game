@@ -1,0 +1,441 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50747
+Successfully changed project path to: F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+F:/Unity_Project/Editor/PC/Online/3D/Survival Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9364] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1921873700 [EditorId] 1921873700 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9364] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1921873700 [EditorId] 1921873700 [Version] 1048832 [Id] WindowsEditor(7,MQuang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path E:/UnityEditor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity_Project/Editor/PC/Online/3D/Survival Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityEditor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityEditor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003526 seconds.
+- Loaded All Assemblies, in  0.331 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 267 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (387ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (740ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (274ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5589 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (427.6 KB). Loaded Objects now: 6050.
+Memory consumption went from 223.2 MB to 222.8 MB.
+Total: 3.985200 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.247800 ms MarkObjects: 3.010800 ms  DeleteObjects: 0.281100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1963.704796 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterA_empty.fbx
+  artifactKey: Guid(31df77c59c711a0488dc7ad8a10abbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterA_empty.fbx using Guid(31df77c59c711a0488dc7ad8a10abbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6250abb97eefa6e969f7e018c44f21') in 0.298384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadA.fbx
+  artifactKey: Guid(3103b18c9c3cd514d8bf6bc9eef61a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadA.fbx using Guid(3103b18c9c3cd514d8bf6bc9eef61a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1331a01b13b3285cb8369438ccf26a') in 0.038637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterC_detail.fbx
+  artifactKey: Guid(7eb888c751f07394491da3166020622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterC_detail.fbx using Guid(7eb888c751f07394491da3166020622f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ac0f73fd332c31e774672b4e886e4') in 0.038178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterB.fbx
+  artifactKey: Guid(c33f7d426c8da5b4893a1c17c4524012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterB.fbx using Guid(c33f7d426c8da5b4893a1c17c4524012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20474cdb25f431cae00af8f28179305f') in 0.033783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterD.fbx
+  artifactKey: Guid(a1065af51b12bbd4c9d8157000c02f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterD.fbx using Guid(a1065af51b12bbd4c9d8157000c02f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d26b8fae772b5c3f8f04e82f32d90e') in 0.029164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadH_detail.fbx
+  artifactKey: Guid(6913c53100cebc244be47664884c5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadH_detail.fbx using Guid(6913c53100cebc244be47664884c5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401289e89478b140348b107c686e3f50') in 0.035006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterA_detail.fbx
+  artifactKey: Guid(5870296baa3c2864c9a19bda44d36017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_waterA_detail.fbx using Guid(5870296baa3c2864c9a19bda44d36017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3953e291688045a12a7699a008f0cb') in 0.034998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadH.fbx
+  artifactKey: Guid(d88129fdebf2b2c4385576c9470b990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadH.fbx using Guid(d88129fdebf2b2c4385576c9470b990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0f59e0365eace5d6922cbbbfeb78b7') in 0.026685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterD_empty.fbx
+  artifactKey: Guid(9fb7ed6596c50ef499a5d228322f7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterD_empty.fbx using Guid(9fb7ed6596c50ef499a5d228322f7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc65a1d88c33cd41c1e22fdd40717705') in 0.025490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_transitionA.fbx
+  artifactKey: Guid(14217a1fc70deb545af36e7628f2e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_transitionA.fbx using Guid(14217a1fc70deb545af36e7628f2e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c47dc66af6b1ada0b3e5d19b72dfcd') in 0.037823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterB_empty.fbx
+  artifactKey: Guid(6edde4baa8407df44b37de63d1db22c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_waterB_empty.fbx using Guid(6edde4baa8407df44b37de63d1db22c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09c1a5c2975a850f5e995d8c8dc9f62') in 0.030367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadM_detail.fbx
+  artifactKey: Guid(8c0a5d48e7c33ac4d8edefbd83d5a6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadM_detail.fbx using Guid(8c0a5d48e7c33ac4d8edefbd83d5a6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067ee20a895996dc253e6cae350bb79b') in 0.049043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadJ_detail.fbx
+  artifactKey: Guid(fbda46d9d66d18b4d9c10ef423bf863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadJ_detail.fbx using Guid(fbda46d9d66d18b4d9c10ef423bf863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc306973471715c34b16eb955080ac94') in 0.039129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_transitionB.fbx
+  artifactKey: Guid(2b7805e6ae398d14b872ff3cf26e31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_transitionB.fbx using Guid(2b7805e6ae398d14b872ff3cf26e31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448b0b9ce0a58158ff36f5a127af325e') in 0.039975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadM_detail.fbx
+  artifactKey: Guid(8a2f26aefd9ca3643862c478f3596c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadM_detail.fbx using Guid(8a2f26aefd9ca3643862c478f3596c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8a9b68fccd27bd305b17644845718') in 0.037941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadI.fbx
+  artifactKey: Guid(08bd4d26c254c374eb08f132c9c06d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadI.fbx using Guid(08bd4d26c254c374eb08f132c9c06d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a128fa14600b2eb078fa27ce73ccb9f') in 0.031756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadK.fbx
+  artifactKey: Guid(280096b06364c6b448782b768a0df246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadK.fbx using Guid(280096b06364c6b448782b768a0df246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c194b0a8935273cb581119677274177f') in 0.033287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadG_detail.fbx
+  artifactKey: Guid(d65f081e0641a45499cae736f362e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_rock_roadG_detail.fbx using Guid(d65f081e0641a45499cae736f362e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50268cf9499cda2b407da435e433d84') in 0.036930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadG_detail.fbx
+  artifactKey: Guid(c84601ad185d577438cbf612c3d748fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadG_detail.fbx using Guid(c84601ad185d577438cbf612c3d748fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e544783970f29874c8664d4708d37ff') in 0.036114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadF.fbx
+  artifactKey: Guid(8ecbc7c5e5e3f2d499a0745e50a3bc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadF.fbx using Guid(8ecbc7c5e5e3f2d499a0745e50a3bc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ee96fac40d3778681eeaf788a03f97') in 0.032024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadK_detail.fbx
+  artifactKey: Guid(072cd2e6dbc84af4abd6d54b506bc7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadK_detail.fbx using Guid(072cd2e6dbc84af4abd6d54b506bc7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7aedbe72b881405bf445b0b34c7fd1') in 0.036898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadG.fbx
+  artifactKey: Guid(c336ea818450fd147ba356c25b5b81b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadG.fbx using Guid(c336ea818450fd147ba356c25b5b81b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e292ce578fc7ff9a2c649b4434acfb34') in 0.030494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadJ.fbx
+  artifactKey: Guid(24d0f2b39aefb8e49b920308cd803412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadJ.fbx using Guid(24d0f2b39aefb8e49b920308cd803412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62378f91534949818b0eb2ee3f9a3d22') in 0.031457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadE.fbx
+  artifactKey: Guid(7610dd5898f238c4790766a55a6dba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadE.fbx using Guid(7610dd5898f238c4790766a55a6dba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2837f8f4f783ae3dc3a9082fd86f34') in 0.032432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadM.fbx
+  artifactKey: Guid(7d187ce9093882642896485d8f1ce3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Models/tiles/hex/fbx/hex_sand_roadM.fbx using Guid(7d187ce9093882642896485d8f1ce3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5751fce07e192099b0b63a64bbb81c') in 0.028109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 98.927097 seconds.
+  path: Assets/G_Asset/Local/Character/Characters/fbx/Knight.fbx
+  artifactKey: Guid(d7c5218c0cdc4d443b1c18738831ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Characters/fbx/Knight.fbx using Guid(d7c5218c0cdc4d443b1c18738831ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0c58378e6b6517ff738ab39925c2c4') in 0.233177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 236
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/shield_badge_color.fbx
+  artifactKey: Guid(7427213015dc0e54db9b9f9e31a3bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/shield_badge_color.fbx using Guid(7427213015dc0e54db9b9f9e31a3bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0a8a3e2e6c0aca1412008dc2ae5df6') in 0.026966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/shield_spikes.fbx
+  artifactKey: Guid(851da795593da154baa9bc78a0c57a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/shield_spikes.fbx using Guid(851da795593da154baa9bc78a0c57a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff92e3af7182771bc5b1e53f479e8b2') in 0.028007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/shield_round_color.fbx
+  artifactKey: Guid(9d7637a20b525e2419ddcb003a7ca557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/shield_round_color.fbx using Guid(9d7637a20b525e2419ddcb003a7ca557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20998dbb691afbb52bcd2519970196f3') in 0.028440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/G_Asset/Local/Character/Assets/fbx/shield_round.fbx
+  artifactKey: Guid(2e7c53866bea4df48ac4331e70800ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Assets/fbx/shield_round.fbx using Guid(2e7c53866bea4df48ac4331e70800ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af10eaf790db52ac185344ccd3ed7e17') in 0.024623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/G_Asset/Local/Character/Characters/fbx/RogueHooded.fbx
+  artifactKey: Guid(4f2fe878720213f488760479c4f3e543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Asset/Local/Character/Characters/fbx/RogueHooded.fbx using Guid(4f2fe878720213f488760479c4f3e543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5bb5862ad8f6366a0ddc274abc5099') in 0.144460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 221
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
