@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GenerateMap : MonoBehaviour
 {
-    [SerializeField] private List<MapFoundation> foundations = new();
+    [SerializeField] private GameObject defaultFoundation;
     [SerializeField] private Transform spawnParent;
     [SerializeField] private GameObject foundation;
     [SerializeField] private Texture2D noiseMap;
@@ -16,6 +16,9 @@ public class GenerateMap : MonoBehaviour
     [SerializeField] private Vector3 foundationScale = new();
     [SerializeField] private Vector3 foundationSize = new();
     private Dictionary<string, float> mapHeightStore = new();
+
+    [Header("Gen Map")]
+    [SerializeField] private Texture2D map;
     private void Start()
     {
         ReadNoiseMap();
@@ -31,6 +34,7 @@ public class GenerateMap : MonoBehaviour
         string key = width + "-" + height;
 
         Color[] pixels = noiseMap.GetPixels();
+        Color[] mapPixels = map.GetPixels();
 
         for (int i = offsetX; i < width + offsetX; i++)
         {
@@ -40,12 +44,14 @@ public class GenerateMap : MonoBehaviour
 
                 float grayScaleValue = pixels[index].grayscale;
                 int foundationValue = (int)Mathf.Ceil((float)grayScaleValue * depth) + 1;
-                for (int z = 0; z < foundationValue; z++)
+                Color mapColor = mapPixels[index];
+                for (int z = 0; z < foundationValue - 1; z++)
                 {
-
                     Vector3 pos = new(foundationSize.x * (i - offsetX), foundationSize.y * z, foundationSize.z * (j - offsetY));
                     SpawnFoundation(pos);
                 }
+                Vector3 topPos = new(foundationSize.x * (i - offsetX), foundationSize.y * (foundationValue - 2), foundationSize.z * (j - offsetY));
+                SpawnGameobject(defaultFoundation, topPos);
             }
         }
         mapHeightStore[key] = height;
@@ -55,10 +61,14 @@ public class GenerateMap : MonoBehaviour
         GameObject foundationItem = Instantiate(foundation, pos, Quaternion.identity, spawnParent);
         foundationItem.transform.localScale = foundationScale;
     }
-}
-[System.Serializable]
-public class MapFoundation
-{
-    public FoundationName name;
-    public GameObject foundation;
+    public void SpawnGameobject(GameObject item, Vector3 pos)
+    {
+        if (item == null)
+        {
+            return;
+        }
+        GameObject foundationItem = Instantiate(item, pos, Quaternion.identity, spawnParent);
+        foundationItem.transform.localScale = foundationScale;
+    }
+
 }
